@@ -11,3 +11,14 @@ wget -qO- https://raw.githubusercontent.com/calidion/happy-ubuntu-config/master/
 ```bash
 curl -o- https://raw.githubusercontent.com/calidion/happy-ubuntu-config/master/install.sh | bash
 ```
+
+### 给Ubuntu扩展虚拟内存
+
+```bash
+wget -qO- https://raw.githubusercontent.com/calidion/happy-ubuntu-config/master/swapfile.sh | bash
+```
+或者
+
+```bash
+curl -o- https://raw.githubusercontent.com/calidion/happy-ubuntu-config/master/swapfile.sh | bash
+```
